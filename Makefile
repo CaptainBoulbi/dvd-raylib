@@ -1,5 +1,5 @@
 all:
-	gcc -Wall -Wextra -O3 -W -o mineur main.c -lraylib
+	gcc -Wall -Wextra -O3 -W -o dvd main.c -lraylib
 
 run: all
-	./mineur
+	./dvd
